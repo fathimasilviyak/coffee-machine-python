@@ -1,6 +1,8 @@
 # TODO 1. import MENU and resources from data.
 from data import MENU, resources
+
 menu = MENU
+
 
 # TODO 5: Function to check resources is sufficient
 def is_resource_sufficient(ingredients):
@@ -55,7 +57,7 @@ while is_coffee_machine_on:
     # TODO 3. Turn off the Coffee Machine if the input is “off”.
     if user_input == "off":
         is_coffee_machine_on = False
-    # TODO 4. print the report.
+    # TODO 4. print the report if user asked to do so.
     elif user_input == "report":
         print(f"water: {resources['water']}ml")
         print(f"milk: {resources['milk']}ml")
@@ -68,3 +70,5 @@ while is_coffee_machine_on:
             paid_amount = process_coins()
             if is_transaction_successful(paid_amount, user_coffee['cost']):
                 make_coffee(user_input, user_coffee['ingredients'])
+
+
