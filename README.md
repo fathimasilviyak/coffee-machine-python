@@ -9,7 +9,13 @@ If the coffee machine is on, the user can choose the type of coffee he want. The
 
 If the user's input is "off" then the coffee machine will be turn off.
 
-Each type of the coffee requires different amount of ingrediences. Such as water, milk, and coffee powder. When the user want to get the report from the coffee machine, he can simply enter "report", and it will shows the available amount of ingredients, with their current profit.
+Each type of the coffee requires different amount of ingrediences. Such as water, milk, and coffee powder. 
+###### Resources for each coffee:
+      espresso: water(50ml), coffee(18g), cost($1.5)
+      latte: water(200ml), milk(150ml), coffee(24g), cost($2.5)
+      latte: water(200ml), milk(150ml), coffee(24g), cost($2.5)
+      
+When the user want to get the report from the coffee machine, he can simply enter "report", and it will shows the available amount of ingredients, with their current profit.
 
 Report, before the purchase:
 * Water: 300ml
