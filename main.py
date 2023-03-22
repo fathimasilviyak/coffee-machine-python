@@ -2,7 +2,6 @@
 from data import MENU, resources
 menu = MENU
 
-
 # TODO 5: Function to check resources is sufficient
 def is_resource_sufficient(ingredients):
     """Return True if ingredients are sufficient else return false."""
